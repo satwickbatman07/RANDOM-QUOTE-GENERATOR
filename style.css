@@ -1,0 +1,84 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color:white;
+  background-image: url("wallpaperflare.com_wallpaper\ \(5\).jpg");
+  color: rgb(0, 0, 0);
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container{
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgb(249, 249, 249,0.1);
+  box-shadow: 0 10px 10px 10px rgb(142, 134, 134,0.3);
+}
+
+.quote-text{
+  font-size:2.75rem ;
+
+}
+.long-quote{
+  font-size: 2rem;
+}
+
+.quote-author{
+  margin-top: 15px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2rem;
+}
+.button-container{
+  margin-top: 15px;
+  display:flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+button{
+  cursor: pointer;
+  font-size: 1.2rem;
+  height:2.5rem;
+  border:none;
+  border-radius:10px;
+  color:rgb(0, 0, 0);
+  background-color: rgb(41, 38, 38);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem ;
+}
+button:hover{
+ background-color: rgb(173, 162, 162);
+}
+button:active{
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgb(233, 224, 224);
+}
+.twitter-button:hover{
+  color:rgb(10, 136, 232)
+}
+/*CODE FOR SMALLER DEVICE*/
+@media screen and (max-width: 100px){
+  .quote-container{
+    margin:auto 10px;
+  }
+  .quote-text{
+    font-size: 2.5rem;
+  }
+}
+
+
+
